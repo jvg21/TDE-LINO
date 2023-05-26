@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Farwest - Camisas de Time</title>
+    <link rel="stylesheet" href="Css/style.css">
+    <script src="js/funcoes.js" defer></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous" defer></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+</head>
+
+<body>
+    <div class="cabecalho">FarWest - Camisas de Time</div>
+
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="PgInicial.html"><div><h1 style="font-size: 30px;">FarWest</h1><h2 style="font-size: 15px;">Camisas de Time</h2></div></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" style="margin-left: 100px;" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Camisas
+                </a>
+                <form id="menu-camisas">
+                  <input type="hidden" name="selcamisa" id="selcamisa">
+                </form>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item"  href="camisa/brasil.html">Clubes Brasileiros</a></li>
+                  <li><a class="dropdown-item" href="camisa/internacional.html">Clubes Internacionais</a></li>
+                  <li><a class="dropdown-item" href="camisa/selecoes.html">Seleções</a></li>
+                </ul>
+              </li>
+              <li class="nav-item" style="margin-left: 100px;">
+                <a class="nav-link" href="#depoimento">Feedbacks</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contato">Contato</a>
+              </li>
+              <li class="nav-item" style="margin-left: 500px;">
+                <a class="nav-link" href="login.html"><img src="person-circle.svg" alt="" width="20"></a>
+              </li>  
+              <li class="nav-item" style="margin-left: 50px;">
+                <a class="nav-link" href="cart.html"><i class="bi bi-cart4" style="font-size: 20px;"></i></a>
+              </li>  
+
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    <div class="centro">
+        <div style="margin-top: 20vh;">        
+            <h2>Cansado de comprar as mesmas camisas?</h2>
+            <h1 style="font-size: 10vh; color: rgb(177, 27, 27); font-weight: bolder;">Venha ver os nossos produtos!</h1>
+        </div>
+
+
+    </div>
+
+    <div class="corpo">
+
+        <div class="depoimento" id="depoimento">
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                  <h5 class="card-title">Mariane Oliveira</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">Camisa do ABC</h6>
+                  <p class="card-text">Procurei em diversas lojas a camisa do time do meu coração, mas a FarWest foi a única que tinha a camisa do ABC de 1920.</p>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                  <h5 class="card-title">Pedro Henrique Rocha</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">Camisa do Airdrie</h6>
+                  <p class="card-text">Conheci o Airdrie jogando Fifa e me apaixonei pelo time! Nunca imaginei encontrar tão facilmente uma camisa de um time da terceira divisão escocesa aqui no Brasil. FarWest é completa demais!</p>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                  <h5 class="card-title">Olivia Farias</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">Camisa Jacuipense</h6>
+                  <p class="card-text">Sou da Bahia e acompanho o Jacuipense desde pequenininha, mesmo sendo só na serie D do brasileiro. Eu acho a camisa linda demais e só consegui encontrar aqui na FarWest.</p>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                  <h5 class="card-title">Pedro Lucas Vieira</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">Camisa do AS Mangasport</h6>
+                  <p class="card-text">Gosto de acompanhar campeonatos exóticos de futebol, como o do Gabão. Porém me apeguei demais pelo Mangasport, simplesmente me tornei um brasileiro fanático, e foi só na FarWest que encontrei o modelo de camisa deles.</p>
+                </div>
+              </div>
+        </div>
+        
+    
+        <div class="contato">
+            <div style="text-align: center;"><p>Endereço:</p><a href="">Rua Hilda Monteiro Cruz, 570, Cidade Industrial</a></div>
+            <div style="text-align: center;"><p>Telefone:</p><a href="">(41) 2970-4037</a></div>
+        </div>
+    
+        <div class="icones" id="contato">
+            <i class="bi bi-facebook"></i>
+            <i class="bi bi-whatsapp"></i>
+            <i class="bi bi-telephone"></i>
+            <i class="bi bi-instagram"></i>
+        </div>
+    </div>
+
+</body>
+
+</html>

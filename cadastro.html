@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Farwest - Camisas de Time</title>
+    <link rel="stylesheet" href="Css/background.css">
+    <link rel="stylesheet" href="Css/especial.css">
+    <script src="js/cadastro.js" defer></script>
+<body>
+
+        <div class="area" >
+                <ul class="circles">
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>        
+                        <li></li>
+                        <li></li>
+                </ul>
+
+                <div class="main-box">
+                        <img src="Midia/farwest-logo.png" alt="img_logo_farwest" width="30%">
+                        <h1>Cadastro</h1>
+                        <form id="form-cadastro">
+                                <div class="inputs"><input type="text" placeholder="Usuário" id="usuario" name="usuario" maxlength="25"></div>
+                                <div class="inputs"><input type="email" placeholder="Email" id="email" name="email" maxlength="60"></div>
+                                <div class="inputs"><input type="text" placeholder="Cpf" id="cpf" name="cpf" maxlength="11"></div>
+                                <div class="inputs"><input type="password" placeholder="Senha" id="senha" name="senha" maxlength="12"></div>
+                                <div class="inputs"><input type="password" placeholder="Confirma Senha" id="csenha" name="csenha" maxlength="12"></div>
+                                <input type="hidden" id="Usuario" name="Usuario" value="">
+                                <input type="hidden" id="Email" name="Email">
+                                <input type="hidden" id="Cpf" name="Cpf">
+                                <input type="hidden" id="Senha" name="Senha">
+                                <input type="hidden" id="CSenha" name="CSenha">
+                        </form>
+                        <button type="button" class="botao" onclick="confcampos()">Cadastrar</button>
+                        <button type="button" class="botao" onclick="btn_login()">Login</button>
+                </div>
+
+        </div >
+
+
+</body>
+</html>

@@ -1,0 +1,65 @@
+
+
+.produtos-carrinho{
+    width: 100%;
+    margin: 30px;
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 1px 1px rgb(104, 103, 103);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: capitalize;
+    display: flex;
+
+}
+.cabeca th{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 25px;
+   
+}
+.Tabela th{
+    width: 300px;
+     text-align: center;
+     padding: 5px;
+}
+.Tabela tr{
+    border-bottom: 2px groove black;
+}
+.lista{
+    width: 40%;
+}
+.compra{
+    background-color: rgba(155, 250, 13, 0.225);
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 2%;
+    width: 20%;
+    border-width: 8px; 
+    border-style: double; 
+    border-color:  purple; 
+    color: rgb(43, 0, 95);
+    
+}
+.compra p{
+    font-size: 30px;
+    text-shadow: 1px 1px 1px rgb(10, 10, 10);
+    
+}
+.compra button{
+    font-size: 110%;
+    width: 80%;
+    height: 30px;
+    background-color: greenyellow;
+    color: purple;
+    border-color: green;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px green;
+}
+.compra button:hover{
+    height: 35px;
+    background-color: rgba(37, 0, 97, 0.864);
+    color: white;
+    border-color: white;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px rgb(43, 0, 95);;
+
+}

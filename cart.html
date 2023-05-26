@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="Css/carrinho.css">
+    <link rel="stylesheet" href="Css/cars.css">
+    <link rel="stylesheet" href="Css/style.css">
+    <script src="js/carrinho.js" defer></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous" defer></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <title>Farwest - Camisas de Time</title>
+    
+</head>
+<body onload="camisas()">
+    <div class="cabecalho">FarWest - Camisas de Time</div>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="PgInicial.html"><div><h1 style="font-size: 30px;">FarWest</h1><h2 style="font-size: 15px;">Camisas de Time</h2></div></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" style="margin-left: 100px;" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Camisas
+                </a>
+                <form id="menu-camisas">
+                  <input type="hidden" name="selcamisa" id="selcamisa">
+                </form>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item"  href="camisa/brasil.html">Clubes Brasileiros</a></li>
+                  <li><a class="dropdown-item" href="camisa/internacional.html">Clubes Internacionais</a></li>
+                  <li><a class="dropdown-item" href="camisa/selecoes.html">Seleções</a></li>
+                </ul>
+              </li>
+              
+              <li class="nav-item" style="margin-left: 550px;"></li>  
+              <li class="nav-item" style="margin-left: 50px;">
+                <button type="button" onclick="limpar_carrinho()" class="nav-link" >Limpar Carrinho</i></a>
+              </li>  
+
+            </ul>
+          </div>
+        </div>
+      </nav>    
+        
+<!-- 
+
+    <div class='products-container'>
+        <div class="product-header">
+            <h5 class="product-title">PRODUCT</h5>
+            <h5 class="price">PRICE</h5>
+            <h5 class="quantity">QUANTITY</h5>
+            <h5 class="total">TOTAL: </h5>
+        </div>
+        <div class="products" id="produtos">        
+        </div>
+    </div> -->
+    <div class="produtos-carrinho">
+        <div class="Lista">
+            <table id="Tabela" class="Tabela">
+                <tr class="cabeca">
+                    <th>Produto</th>
+                    <th>Preco</th>
+                    <th>Quantidade</th>
+                </tr>
+            </table>
+        </div>
+        <br/>
+        <div class="compra" id="compra">
+            <p id="Total">Total: 000,00</p>
+            <input type="hidden" id="total_compra">
+            <button type="button" onclick="btn_pagamento()">Comprar</button>
+        </div>
+    
+
+    </div>
+   
+
+    
+
+
+ 
+    
+</body>
+</html>
